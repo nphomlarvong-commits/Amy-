@@ -1,0 +1,36 @@
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* ตำแหน่งและการดีเลย์ของแต่ละรูป */
+    .img1 { top: 20px;     left: 90px;   animation-delay: 0s; }
+    .img2 { top: 20px;     left: 370px;  animation-delay: 0.3s; }
+
+    .img3 { top: 210px;    left: -40px;  animation-delay: 0.6s; }
+    .img4 { top: 210px;    left: 145px;  animation-delay: 0.9s; }
+    .img5 { top: 210px;    left: 330px;  animation-delay: 1.2s; }
+    .imgx { top: 210px;    left: 515px;  animation-delay: 1.5s; }
+    .imgy { top: 400px;    left: 10px;   animation-delay: 1.8s; }
+
+    .img6 { top: 400px;    left: 200px;  animation-delay: 2.1s; }
+    .img7 { top: 400px;    left: 390px;  animation-delay: 2.4s; }
+
+    .img8 { top: 590px;    left: 200px;  animation-delay: 2.7s; }
+  </style>
+</head>
+<body>
+  <div class="heart">
+    <img src="Amy1.jpg" class="img1">
+    <img src="Amy2.jpg" class="img2">
+    <img src="Amy3.jpg" class="img3">
+    <img src="Amy4.jpg" class="img4">
+    <img src="Amy5.jpg" class="img5">
+    <img src="Amy1.jpg" class="imgx">
+    <img src="Amy1.jpg" class="imgy">
+    <img src="Amy6.jpg" class="img6">
+    <img src="Amy7.jpg" class="img7">
+    <img src="Amy8.jpg" class="img8">
+  </div>
+</body>
+</html>

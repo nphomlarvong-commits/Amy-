@@ -1,0 +1,16 @@
+.cute-button {
+  background-color: #ff66b2;     /* ชมพูหวาน */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 30px;           /* ขอบมน */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* เงานิดหน่อย */
+  transition: background-color 0.3s ease;
+}
+
+.cute-button:hover {
+  background-color: #ff3399;     /* เปลี่ยนสีตอน hover */
+}
+

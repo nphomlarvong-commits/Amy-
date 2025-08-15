@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heart with 8 Images (No Overlap)</title>
+  <style>
+    body {
+      background-color: rgb(245, 189, 245);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 740px;
+      margin: 0px;
+    }
+
+    .heart {
+      position: relative;
+      width: 700px;  /* พื้นที่กว้างพอสำหรับรูปไม่ทับกัน */
+      height: 700px;
+    }
+
+    .heart img {
+      position: absolute;
+      width:180px;
+      height:180px;
+      object-fit: cover;
+      border-radius: 0px;
+      image-rendering: auto;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+       /* เอฟเฟกต์จางแล้วค่อยๆ ปรากฏ */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* ตำแหน่งและการดีเลย์ของแต่ละรูป */
+    .img1 { top: 20px;     left: 90px;   animation-delay: 100s; }
+    .img2 { top: 20px;     left: 370px;  animation-delay: 200s; }
+
+    .img3 { top: 210px;    left: -40px;  animation-delay: 300s; }
+    .img4 { top: 210px;    left: 145px;  animation-delay: 400s; }
+    .img5 { top: 210px;    left: 330px;  animation-delay: 500s; }
+    .imgx { top: 210px;    left: 515px;  animation-delay: 600s; }
+    .imgy { top: 400px;    left: 10px;  animation-delay: 700s;}
+    .img6 { top: 400px;    left: 200px;  animation-delay: 800s; }
+    .img7 { top: 400px;    left: 390px;  animation-delay: 900s; }
+
+    .img8 { top: 590px;    left: 200px;  animation-delay: 1000s; }
+  </style>
+  
+<body>
+  <div class="heart">
+    <img src="Amy1.jpg" class="img1">
+    <img src="Amy2.jpg" class="img2">
+    <img src="Amy3.jpg" class="img3">
+    <img src="Amy4.jpg" class="img4">
+    <img src="Amy5.jpg" class="img5">
+    <img src="Amy10.jpeg" class="imgx">
+    <img src="Amy6.jpg" class="imgy">
+    <img src="Amy9.jpg" class="img6">
+    <img src="Amy7.jpg" class="img7">
+    <img src="Amy8.jpg" class="img8">
+  </div>
+</body>
+</html>
+</html>
